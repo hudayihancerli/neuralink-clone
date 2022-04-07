@@ -1,0 +1,204 @@
+main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh 100vh 100vh;
+    
+}
+main .text{
+    width: 1fr ;     
+    position:absolute;
+    top: 200px;
+    left: 60px;
+}
+main .hero-home{
+    
+    background-image: url("../image/homepage-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-color:#b4bdcb;
+}
+main .page-list{
+    background-color: rgba(255, 0, 0, 0.986);
+}
+
+main .jobs-cta{
+    background-color: rgba(255, 0, 221, 0.904);
+}
+
+.hero-home .hero-head{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: -1.8px;
+    line-height: 70px;
+    margin-bottom: 130px;
+}
+
+.hero-home .hero-content{
+    border-top: 2px solid  #fff;
+    padding-top: 20px;
+
+}
+
+.hero-home .hero-content a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    padding-right: 28px;
+}
+
+.hero-home .hero-content img{
+    margin-left: 8px;
+}
+
+
+
+.page-list{
+    display: flex;
+    /* justify-content: center;     */
+}
+
+.page-list .sience{
+    width: calc(100% / 3);
+    background-color: #c9a3a4;
+    background-image: url(../image/red-desktop-thumbnail.png);
+    background-size: 250px 380px;   
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position-y: 70%;
+    /* background-position-x: bottom; */
+    padding: 40px 60px;
+}
+.page-list .approach{
+    width: calc(100% / 3);
+    background-color: #a7ceef;
+    background-image: url(../image/blue-desktop-thumbnail.png);
+    background-size: 400px 360px;   
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position-y: 70%;
+    padding: 40px 60px;
+}
+.page-list .applications{
+    
+    width: calc(100% / 3);
+    background-color: #acb5ac;
+    background-image: url(../image/green-desktop-thumbnail.png);
+    background-size: 400px 420px;   
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position-y: 70%;
+    padding: 40px 60px;
+}
+
+.page-list h2{
+    color: #fff;
+    font-family: Times;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 1.8%;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    /* width: 300px; */
+    /* margin-left: 1; */
+}
+
+.page-list p{
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    font-family: tahoma;
+    font-weight: 700;
+    line-height: 19.5px;
+    letter-spacing: 1.8%;
+    margin-bottom: 70vh
+}
+
+.page-list a{
+    color: #fff;
+    font-size: 22px;
+    font-family: tahoma;
+    font-weight: 400;
+    line-height: 19.5px;
+    letter-spacing: 1.8%;
+}
+
+.jobs-cta{
+    background: url("../image/homepage-footer.svg");
+    background-size: auto 100vh ;
+    background-repeat: no-repeat;
+    padding: 60px;
+    /* height: 80vh; */
+}
+
+.jobs-cta h2 {
+    color: #fff;
+    width: 380px;
+    font-family: Times;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 1.8%;
+    border-bottom: 2px solid #fff;
+    text-align: start;
+    margin-bottom: 40px;
+}
+
+.jobs-cta p {
+    text-align: left;
+    width: 360px;
+    color: #fff;
+    font-size: 19px;
+    font-family: tahoma;
+    font-weight: 300;
+    line-height: 19.5px;
+    /* letter-spacing: 1.8%; */
+    margin-bottom: 40vh
+}
+
+.jobs-cta a{
+
+    color: #fff;
+    font-size: 22px;
+    font-family: tahoma;
+    font-weight: 400;
+    line-height: 19.5px;
+    letter-spacing: 1.8%;
+}
+
+footer{
+    background-color: #f2f7f7;
+    color: #858686;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: tahoma;
+    font-weight: 500;
+}
+
+footer .logo{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+footer .info input{
+    margin-top: 15px;
+    border: 0;
+    padding-bottom: 4px;
+    /* text-align: left; */
+    border-bottom: 1px solid #858686;
+    background-color: transparent;
+    width: 300px;
+}
+footer .info  img{
+    margin-left: -14px;
+}
+
+footer a{
+    color: #858686;
+}

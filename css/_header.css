@@ -1,0 +1,24 @@
+header{
+   /* z-index: 999; */
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    /* background-color: #B4BDCB; */
+    position:absolute;
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+   justify-content: space-between;
+}
+
+
+.header-container ul li a{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Helvetica;
+    float: right;
+    font-weight: bold;
+}
